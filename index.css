@@ -4,22 +4,22 @@ body {
   background-color: #000000;
   color: white;
   font-family: 'Montserrat';
-  font-size: 1vw;
+  font-size: 18px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  align-content: center;
+  height: 990px;
   padding-top: 20px;
 }
 
 h1 {
-  font-size: 7vw;
+  font-size: 128px;
   margin: 0px 0px 40px 0px;
 }
 
 h2 {
-  font-size: 1.75vw;
+  font-size: 32px;
   margin: 40px 0px 0px 0px;
 }
 
@@ -31,7 +31,7 @@ img {
 }
 
 #title {
-  margin: 30px 5% 30px 5%;
+  margin: 30px 5%;
   padding: 10px 0px;
   font-weight: normal;
   background: linear-gradient(55deg, #61a2d5, #245a86);
@@ -39,7 +39,7 @@ img {
 }
 
 #post {
-  margin: 30px 20% 30px 20%;
+  margin: 30px 20%;
   padding: 20px 10%;
   background: white;
   color: black;
@@ -53,4 +53,23 @@ img {
 
 #signature {
   text-align: right;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 10px
+  }
+  h1 {
+    font-size: 38px
+  }
+  h2 {
+    font-size: 10px
+  }
+  img {
+    width: 80%;
+  }
+  #post {
+    margin: 30px 10%;
+    padding: 20px 5%;
+  }
 }
